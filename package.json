@@ -1,6 +1,6 @@
 {
   "name": "generator-ct-ge",
-  "version": "0.0.0",
+  "version": "1.1.0",
   "description": "a yeoman app for gulp",
   "homepage": "https://github.com/ct-team/generator-ct-ge.git",
   "author": {
