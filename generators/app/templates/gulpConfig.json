@@ -1,0 +1,30 @@
+{
+	"testUrl":"http://static.tcy365.org:1505/uc/tchallFmj/assets/",
+	"staticUrl":"http://static.tcy365.com/uc/tchallFmj/assets/",
+	"seajs":[
+	  	{"Entry":"/assets/js/main/","Out":"/assets/js/main/","Name":"main.js"},
+	    {"Entry":"/assets/js/record/","Out":"/assets/js/record/","Name":"record.js"}
+	],
+  	//"styleTemplate":"/assets/sass/tem/handlebarsStr.scss",
+  	"spritesList":[
+	    {"url":"msg/msg-p*.png","out":"msg/","algorithm":"left-right","imgName":"msg-p.png","cssName":"msg-p.scss"},
+	  {"url":"msg/close*.png","out":"msg/","algorithm":"left-right","imgName":"close.png","cssName":"msg-close.scss"},
+	  {"url":"freegift/btn*.png","out":"freegift/","algorithm":"left-right","imgName":"btn.png","cssName":"btn.scss"},
+	  {"url":"ico*.png","out":"","algorithm":"binary-tree","imgName":"ico.png","cssName":"ico.scss"},
+	  {"url":"recallboat/*m.png","out":"recallboat/","algorithm":"left-right","imgName":"M-ico.png","cssName":"M-ico.scss"},
+	  {"url":"recallboat/btn*.png","out":"recallboat/","algorithm":"left-right","imgName":"recallboat-btn.png","cssName":"recallboat-btn.scss"},
+	  {"url":"reward*.png","out":"","algorithm":"left-right","imgName":"reward-ico.png","cssName":"reward-ico.scss"}
+	],
+	"build":"build",
+	"test":"test",
+  	"static":"static",
+	"src":"src",
+	"sprite":"/assets/sprite/",
+	"staticJs":"/assets/js/",
+	"staticCss":"/assets/css/",
+  	"spriteScss":"/assets/sass/",
+	"staticImg":"/assets/img/",
+	"staticTpl":"/assets/tpl/",
+	"staticTplhtml":"/assets/tplhtml/",
+	"spriteImg":"/assets/sprite/"
+}
