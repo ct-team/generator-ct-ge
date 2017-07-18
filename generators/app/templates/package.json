@@ -1,5 +1,5 @@
 {
-  "name": "ge",
+  "name": "ct-ge",
   "version": "1.2.1",
   "description": "",
   "main": "gulpfile.js",
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "daixl",
   "license": "ISC",
   "devDependencies": {
     "del": "^2.2.2",
