@@ -1,136 +1,85 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="zh-CN">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-  <title>妖豆游戏-端午活动</title>
-  <meta name="Keywords" content="妖豆游戏，端午活动">
-  <meta name="description" content="妖豆游戏，端午活动"/>
-  <link rel="shortcut icon" href="http://static.tcy365.org:1505/yd/common/images/favicon.ico"/>
-  <!--build:css assets/css/main.min.css -->
-  <link rel="stylesheet" href="assets/css/base.css">
-  <link rel="stylesheet" href="assets/css/msg.css">
-  <link rel="stylesheet" href="assets/css/landgame.css">
-  <link rel="stylesheet" href="assets/css/lovepassion.css">
-  <link rel="stylesheet" href="assets/css/recallboat.css">
-  <link rel="stylesheet" href="assets/css/freegift.css">
-  <!-- endbuild -->
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit" />
+<title>标题</title>
+<meta name="Keywords" content="">
+<meta name="description" content="" />
+<link rel="shortcut icon" href="http://static.tcy365.com/uc/common/images/favicon.ico">
+<!--build:css assets/css/main.min.css -->
+<link href="assets/css/base.css" rel="stylesheet" type="text/css">
+<link href="assets/css/side.css" rel="stylesheet" type="text/css">
+<link href="assets/css/main.css" rel="stylesheet" type="text/css">
+<link href="assets/css/pages.css" rel="stylesheet" type="text/css">
+<link href="assets/css/pop.css" rel="stylesheet" type="text/css">
+<link href="assets/css/vip.css" rel="stylesheet" type="text/css">
+<!-- endbuild -->
+<link href="http://static.tcy365.org:1505/common/component/pc/hallpop/1.0/hallpop.css" rel="stylesheet" type="text/css">
 </head>
 
 <body class="yahei">
-<div id="YDSiteNav"></div>
-<div class="top">
-  <div class="top-con">
-    <a href="javascript:;" class="reward-ico J-myreward"></a>
-    <ul>
-      <li class="li-nav1 nav" ><a href="javascript:;" class="nav1 curr" id="JLandgame" data-index=1></a></li>
-      <li class="li-nav2 nav" ><a href="javascript:;" class="nav2 " id="JLovepassion" data-index=2></a></li>
-      <li class="li-nav3 nav" ><a href="javascript:;" class="nav3" id="JRecallboat" data-index=3></a></li>
-      <li class="li-nav4 nav" ><a href="javascript:;" class="nav4" id="JFreegift" data-index=4></a></li>
-    </ul>
-  </div>
-</div>
-
-<div class="main-b">
-  <div class="main-con">
-    <div id="activityList">
-      <div class="G1-con game-con curr">
-        <div class="s1-top">
-          <span class="s1-top-title">登陆游戏可获得一次抽奖机会，每日连续登陆，次数更多，V4及以上用户次数翻倍！</span>
-          <a href="javascript:;" class="J-rule1 rule-btn">活动规则</a>
+<div class="J_wrap">
+<div class="tcshop">
+    <div class="tcshop-side">
+        <div class="try-on">
+            <div class="try-on-hd"><div class="J_user_box none"><a href="tcyapp://openpay?urlparam=tab=service"><i class="ico ico-member J_user_vip"></i></a><span class="try-on-hd-username"></span></div><a title="点击刷新" href="javascript:;" class="try-on-hd-refresh"></a> </div>
+            <div class="try-on-md">
+                <div class="try-on-md-clothes"> <img src="http://static.uc108.org:1505/uc/tchallvip/images/pepdef.gif" width="135" height="270"> </div>
+                <div class="login-state">
+                	<a class="login-state-btn" href="/login.aspx?gourl=http://hall.shop.uc108.com/Default.aspx?growth=27737&jindou=358&lvnum=19&cid=1&username=dxl198406&time=3394472&r=0.311154387104863">请先登录</a>
+                </div>                
+                <a class="try-on-md-closetry none" href="javascript:;" title="取消试穿"></a> </div>
         </div>
-        <div class="s1-body">
-          <div class="s1-body-con">
-            <div class="s1c-register">
-              <!--签到信息-->
-              <span class="sp1"></span>
-              <span class="sp2"></span>
-              <span class="sp3"></span>
-              <span class="sp4"></span>
-              <span class="sp5"></span>
-              <a href="javascript:;" target="_blank" class="login-btn J-login-btn"></a>
-            </div>
-            <div class="s1c-register-des">
-              <span class="sp1 span-on">5月26日</span>
-              <span class="sp2">5月27日</span>
-              <span class="sp3">5月28日</span>
-              <span class="sp4">5月29日</span>
-              <span class="sp5">5月30日</span>
-            </div>
-
-            <div class="s1c-game">
-              <div class="lucky-list-box" id="J-luckylistbox"></div>
-              <!--跑马灯str-->
-              <div class="prizebox-wrap" id="J-pmd">
-                <div class="prizebox">
-                  <div class="prize-1"><s></s></div>
-                  <div class="prize-2"><s></s></div>
-                  <div class="prize-3"><s></s></div>
-                  <div class="prize-4"><s></s></div>
-                  <div class="prize-5"><s></s></div>
-                  <div class="prize-6"><s></s></div>
-                  <div class="prize-7"><s></s></div>
-                  <div class="prize-8"><s></s></div>
-                  <div class="prize-9"><s></s></div>
-                  <div class="prize-10"><s></s></div>
-                </div>
-                <div class="prizebox-tip">抽奖次数<span class="prizebox-num J-prizenum">0</span>次</div>
-                <div class="prizebox-btn">
-                  <a href="javascript:;" class="prizebox-btn1 J_prizebtn1"></a>
-                  <a href="javascript:;" class="prizebox-btn2 J_prizebtn2"></a>
-                </div>
-              </div>
-              <!--跑马灯end-->
-            </div>
-
-            <div class="s1c-game-commond">
-              <h3 class="title">游戏推荐：</h3>
-              <div class="J-gamesbox"></div>
-            </div>
-          </div>
-        </div>
-        <div class="s1-bottom"></div>
-      </div>
-
-      <div class="G2-con game-con"></div>
-
-      <div class="G3-con game-con"></div>
-
-      <div class="G4-con game-con"></div>
-
+        <a class="my-goods" href="tcyapp://openmyitem/"><i class="ico ico-box"></i><span class="text">我的物品</span></a>
+        <div class="pic-show"><a href="#"><img src="http://hall.shop.tcy365.com/images/activity/jinfenyiren.gif" height="138" width="205"/></a></div>
+        <div class="side-tip">会员享受购物<span class="hot">8折优惠</span>！<a class="side-tip-vip" href="tcyapp://openpay?urlparam=tab=service"><i class="ico ico-member ico-member-on"></i> 成为会员&gt;</a></div>
     </div>
-  </div>
+    <div class="tcshop-main">
+        <div class="nav"><a href="javascript:;" data-type="clothes" class="nav-item nav-item-on"><span class="text">会员免费服装</span></a><a href="javascript:;" data-type="gradeClothes" class="nav-item"><span class="text">会员尊贵服装</span></a> </div>
+        <div class="list-box-type">
+             <div class="type-grade"><a href="javascript:;" class="on" data-id="0">等级</a><a href="javascript:;" data-id="1">LV1</a><a href="javascript:;" data-id="2">LV2</a></div>
+                    
+        </div>
+        <div class="list-box">     
+            
+            <div class="list-box-content"> </div>
+            <div class="vip-grade none">
+                <ul>
+                    <li>
+                        <p class="pic"></p>
+                        <p class="btn"><span class="fmp">非卖品</span><a href="javascript:;" data-url="http://shopimg.ct108.net/Clothes/portrait/c250.gif" class="btn-try" title="试穿">试穿</a></p>
+                        <p>(<i class="ico ico-member ico-member-on"></i>LV3等级服装)</p>
+                    </li>
+                    <li>
+                        <p class="pic"></p>
+                        <p class="btn"><span class="fmp">非卖品</span><a href="javascript:;" data-url="http://shopimg.ct108.net/Clothes/portrait/c229.gif" class="btn-try" title="试穿">试穿</a></p>
+                        <p>(<i class="ico ico-member ico-member-on"></i>LV5等级服装)</p>
+                    </li>
+                    <li>
+                        <p class="pic"></p>
+                        <p class="btn"><span class="fmp">非卖品</span><a href="javascript:;"  data-url="http://shopimg.ct108.net/Clothes/portrait/c225.gif" class="btn-try" title="试穿">试穿</a></p>
+                        <p>(<i class="ico ico-member ico-member-on"></i>LV4等级服装)</p>
+                    </li>
+                </ul>
+                <div class="list-box-content-tip">到达相应的会员等级后，服装直接发放到“我的物品”<a href="tcyapp://openmyitem/" class="b2">马上穿戴</a><a href="tcyapp://openpay?urlparam=tab=service" class="b1">成为会员</a></div>
+            </div>
+        </div>
+        <div class="page" id="page"></div>
+    </div>
 </div>
-
-<div class="bottom">
-  <div class="bottom-con"></div>
 </div>
-
-<script
-  src="http://static.tcy365.org:1505/??cdn/jquery/1.7.1/jquery.js,cdn/template/3.0.0/template.js,yd/common/js/basejs/1.1/base.js,cdn/dialog/1.3/dialog.js,common/component/pc/top/yaodou/2.1/act.js,cdn/seajs/3.0.0/sea.js,common/component/pc/ietip/1.0.0/js/lowVersionTip.js,cdn/component/scroll/1.0.0/scroll.min.js?v=20170515"></script>
-<!--build:js assets/js/app.min.js -->
-<script src="assets/js/lib/jquery.sidebar.js"></script>
-<script src="assets/js/lib/jquery.page.js"></script>
-<script src="assets/js/lib/jquery.reward.js"></script>
-<script src="assets/js/lib/pmd.js"></script>
-<script src="assets/js/lib/scroll.js"></script>
-<!-- endbuild -->
+<a href="tcyapp://changeclothing/" id="changeHeadportrait"></a>
 <script>
-
-  (function () {
-    seajs.config({
-      base: "http://a.yaodou.org:1505/assets/js/module",
-      map: [
-        [/^(.*\.(?:css|js))(.*)$/i, '$1?20170515']
-      ]
-    });
-    seajs.use('act', function (act) {
-            act.init(); // 活动列表页
-    });
-  })();
+var tchallvip={isLogin:true,userName:'daixl',portrait:'http://shopimg.ct108.net/Clothes/portrait/c225.gif'}
 </script>
 
-</body>
+<script src="http://static.uc108.com/??cdn/jquery/1.7.1/jquery.js,cdn/dialog/1.2/dialog.js,cdn/template/3.0.0/template.js,cdn/seajs/3.0.0/sea.js?v=20161013" type="text/javascript"></script> 
 
+<!--build:js assets/js/app.min.js -->
+<script src="assets/js/lib/pages.js" type="text/javascript"></script>
+<script src="assets/js/app.js"></script>
+<!-- endbuild -->
+</body>
 </html>

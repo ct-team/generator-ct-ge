@@ -1,0 +1,20 @@
+{{if list.length > 0}}
+<ul class="list-items">
+ {{each list as value i}}
+    <li data-id="{{value.itemId}}">
+        <div class="list-items-item">
+            <div class="img"><img src="{{value.image}}" width="108" height="108"></div>
+            <p class="til"><span class="J_list_name">{{value.itemName}}</span><span class="til-f">({{value.unitName}})</span></p>
+            <p class="pirce">(<i class="ico ico-member ico-member-on"></i>LV{{value.memLevel}}及以上)</p>
+            <div class="btn">{{if value.obtained}}<a href="javascript:;" class="btn-buy btn-buy-no">已领取</a>{{else}}<a href="javascript:;" class="btn-buy J_btn_buy">领取</a>{{/if}}<a href="javascript:;" data-url="{{value.portrait}}" class="btn-try J_btn_try" title="试穿">试穿</a></div>
+        </div>
+    </li>
+    {{/each}}
+</ul>
+{{else}}
+<div class="error-tip">没有内容了</div>
+{{/if}}
+<div class="list-box-content-tip">2级会员及以上不限领取。 <a href="tcyapp://openmyitem/" class="b2">马上穿戴</a><a href="tcyapp://openpay?urlparam=tab=service" class="b1">成为会员</a></div>
+{{if list.length > 4}}
+<div class="list-box-content-line"></div>
+{{/if}}

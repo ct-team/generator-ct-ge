@@ -1,0 +1,30 @@
+﻿/*base*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font:12px / 1.5 arial,'宋体', \5b8b\4f53; }
+h1, h2, h3, h4, h5, h6 { font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:courier new, courier, monospace; }
+small { font-size:12px; }
+ul, ol { list-style:none;}
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+sup { vertical-align:text-top; }
+sub { vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0 none; }
+button, input, select, textarea { font-size:100%; outline:none;}
+table { border-collapse:collapse; border-spacing:0; }
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { display: inline-table; }
+.clearfix { display: block; }
+.clearfix { *min-height: 1%;_height: 1%; }
+.ellipsis{overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+a{ color: #157bbb; cursor:pointer; outline:none;}
+a:hover{ color:#951901; text-decoration: none; }
+.content{ width: 980px; margin:0 auto;}
+.content:after { content: ""; display: block; height: 0; clear: both;  }
+.red{ color:#FF0000}
+body{ background: #FFFFFF; }
+.none{ display:none;}
+.yahei{font-family:"Microsoft YaHei",微软雅黑;}
+

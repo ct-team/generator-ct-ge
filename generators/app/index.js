@@ -28,6 +28,10 @@ module.exports = class extends Generator {
       this.templatePath('*'),
       this.destinationPath('')
     );
+	this.fs.copy(
+        this.templatePath('src/**/*'),
+        this.destinationPath('src/')
+    );
   }
 
   install() {

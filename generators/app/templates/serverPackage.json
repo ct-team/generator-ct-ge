@@ -1,0 +1,50 @@
+{
+  "version": "2.0.0",
+  "author": "dxl",
+  "config": {
+    "href": "http://hall.pay.uc108.org:1505",
+    "host": "hall.pay.uc108.org",
+    "port": 1505,
+    "serverPort": 8000,
+    "debug": true
+  },
+  "dataList": [
+
+    {
+      "url": "/api/order/verify",
+      "type": "get",
+      "arg":{"SourceCode":"hallpaycenter","PayWayCode":"fastnetwxcodeweb"},
+      "data": {
+        "status": 2,
+        "data": {
+          "url": "http://pcpay.uc108.com/order/complete?orderno=&sign"
+        },
+        "msg": ""
+      }
+    },
+    {
+      "url": "/api/order/verify",
+      "type": "get",
+      "arg":{"SourceCode":"hallpaycenter","PayWayCode":"fastnetwxcodeweb2"},
+      "data": {
+        "status": 1,
+        "data": {
+          "url": "http://pcpay.uc108.com/order/complete?orderno=&sign"
+        },
+        "msg": ""
+      }
+    },
+    {
+      "url": "/api/order/verify",
+      "type": "get",
+      "arg":"",
+      "data": {
+        "status": 3,
+        "data": {
+          "url": "http://pcpay.uc108.com/order/complete?orderno=&sign"
+        },
+        "msg": ""
+      }
+    }
+  ]
+}
